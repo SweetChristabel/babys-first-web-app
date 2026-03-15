@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(57, 47, 47);
+    color: silver;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header, nav {
+    padding: 5px;
+    background-color:rgb(165, 0, 35);
+    color: white;
+    outline-style: double;
+    outline-color: white;
+    outline-width: 3px;
+    outline-offset: 1px;
+
+
+}
+
+nav ul { /* covers every ul that's within a nav */
+    font-weight: bold;
+    padding: 0;
+}
+
+nav ul li { /* covers every li that's within a ul and within a nav */
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a{ /* you get the gist */
+    color: pink;
+}
+
+h1 {
+    font-size: 1.6em;
+    margin: 20px;
+
+
+}
+
+h2 {
+    font-size: 1.4em;
+    margin: 15px;
+
+
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px;
+    line-height: 1.5;
+
+
+}
+
+.nicebigphoto {
+    display: block;
+    margin: 20px auto;
+    max-width: 600px;
+
+
+}
+
+
+footer{
+    position: absolute;
+    background-color: rgb(165, 0, 35);
+    height: 50px;
+    width: 100%;
+    font-size: 0.7em;
+    color: white;
+    outline-style: double;
+    outline-color: white;
+    outline-width: 3px;
+    outline-offset: 1px;
+    padding: 10px;
+
+
+
+    
+}
