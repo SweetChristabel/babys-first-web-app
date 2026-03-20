@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<img src="static/html.png" alt="HTML logo" class="tinylittleimage">
+<h2>HTML</h2>
+HTML is the stuff browsers read and use to display web pages to users. However, writing pages manually is a lot of work for very limited possibilities. Every time you want to show different data (like user profiles, blog posts, or product listings), you'd have to edit the HTML files by hand.
+
+<img src="static/python.png" alt="Python logo" class="tinylittleimage">
+<h2>Python</h2>
+Python is a widely used all-purpose programming language that can process data, connect to databases, and run logic. But on its own, it doesn't talk to browsers.
+
+<img src="static/flask.png" alt="Flask logo" class="tinylittleimage">
+<h2>Flask</h2>
+Flask is a framework that ties them together, enabling you to build web applications using Python.
+It lets your Python code receive requests from browsers, run logic (like querying your SQL database),
+and send back dynamic HTML or data. So instead of manually updating files, you write code once and Flask handles the rest.
+It's lightweight and flexible, meaning you can start small and grow as needed.
+Flask is classified as a "microframework", because it gives you the basics without forcing extra tools on you. 
+You only add what you need (for example database connectors or authentication) instead of being stuck with a bunch of stuff you won't use.
+Flask is s also beginner-friendly, allowing us to learn how everything connects without getting buried in complexity.  
+Flask pairs nicely with SQL and databases, which is neat since we just spent 8 weeks learning that. 
+It allows us to query data and display the results on the page without too much hassle.
+
+<img src="static/connection.jpg" alt="image: Flask is the handshake between HTML and Python." class="nicebigphoto">
+
+{% endblock %}
